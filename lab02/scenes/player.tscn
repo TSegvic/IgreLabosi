@@ -1,0 +1,111 @@
+[gd_scene load_steps=15 format=3 uid="uid://b1c2d3e4f5g6h"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_player"]
+[ext_resource type="Script" path="res://scripts/camera_rig.gd" id="2_camera"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_player"]
+radius = 0.4
+height = 1.8
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_player"]
+radius = 0.4
+height = 1.8
+
+[sub_resource type="StandardMaterial3D" id="Mat_player"]
+albedo_color = Color(0.3, 0.55, 0.9, 1)
+roughness = 0.7
+
+[sub_resource type="BoxMesh" id="BoxMesh_fps_weapon"]
+size = Vector3(0.12, 0.12, 0.6)
+
+[sub_resource type="StandardMaterial3D" id="Mat_weapon"]
+albedo_color = Color(0.15, 0.15, 0.18, 1)
+metallic = 0.3
+roughness = 0.5
+
+[sub_resource type="BoxMesh" id="BoxMesh_tps_weapon"]
+size = Vector3(0.1, 0.1, 0.5)
+
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1_player")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_player")
+
+[node name="PlayerMesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+visible = false
+mesh = SubResource("CapsuleMesh_player")
+surface_material_override/0 = SubResource("Mat_player")
+
+[node name="TPSWeapon" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 1.2, -0.4)
+visible = false
+mesh = SubResource("BoxMesh_tps_weapon")
+surface_material_override/0 = SubResource("Mat_weapon")
+
+[node name="CameraRig" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.65, 0)
+script = ExtResource("2_camera")
+
+[node name="PitchNode" type="Node3D" parent="CameraRig"]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraRig/PitchNode"]
+spring_length = 0.0
+margin = 0.15
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/PitchNode/SpringArm3D"]
+
+[node name="FPSWeapon" type="MeshInstance3D" parent="CameraRig/PitchNode/SpringArm3D/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.28, -0.22, -0.5)
+mesh = SubResource("BoxMesh_fps_weapon")
+surface_material_override/0 = SubResource("Mat_weapon")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="StateLabel" type="Label" parent="HUD"]
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 400.0
+offset_bottom = 40.0
+text = "State: IDLE"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 18
+
+[node name="ViewLabel" type="Label" parent="HUD"]
+offset_left = 16.0
+offset_top = 38.0
+offset_right = 400.0
+offset_bottom = 66.0
+text = "View: FPS"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 18
+
+[node name="StaminaBar" type="ProgressBar" parent="HUD"]
+offset_left = 16.0
+offset_top = 68.0
+offset_right = 240.0
+offset_bottom = 88.0
+max_value = 100.0
+value = 100.0
+
+[node name="Crosshair" type="Label" parent="HUD"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -6.0
+offset_top = -14.0
+offset_right = 6.0
+offset_bottom = 14.0
+text = "+"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 24
