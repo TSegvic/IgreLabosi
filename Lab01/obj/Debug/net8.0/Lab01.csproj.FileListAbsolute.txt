@@ -1,0 +1,14 @@
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\bin\Debug\net8.0\Lab01.exe
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\bin\Debug\net8.0\Lab01.deps.json
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\bin\Debug\net8.0\Lab01.runtimeconfig.json
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\bin\Debug\net8.0\Lab01.dll
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\bin\Debug\net8.0\Lab01.pdb
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.AssemblyInfoInputs.cache
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.AssemblyInfo.cs
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.dll
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\refint\Lab01.dll
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.pdb
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\Lab01.genruntimeconfig.cache
+C:\Users\Peglaman\Desktop\bitne stvari momenti\Kopilica\3.godina\Igre\labosi\Lab01\obj\Debug\net8.0\ref\Lab01.dll
