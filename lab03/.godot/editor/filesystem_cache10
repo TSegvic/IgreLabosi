@@ -1,0 +1,15 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1778790436
+icon.svg::CompressedTexture2D::8902585552551051117::1778790384::1778790437::1::::<><><>0<>0<>a4dfc28644f69cd167a3b1ccd1d7af74<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://scenes/::1778790384
+damage_item.tscn::PackedScene::-1::1778790384::0::1::::<><><>0<>0<><>::res://scripts/damage_item.gd
+main.tscn::PackedScene::-1::1778790384::0::1::::<><><>0<>0<><>::res://scenes/player.tscn<>res://scenes/score_item.tscn<>res://scenes/damage_item.tscn<>res://scenes/speed_zone.tscn<>res://scripts/main.gd
+player.tscn::PackedScene::-1::1778790384::0::1::::<><><>0<>0<><>::res://scripts/player.gd
+score_item.tscn::PackedScene::-1::1778790384::0::1::::<><><>0<>0<><>::res://scripts/score_item.gd
+speed_zone.tscn::PackedScene::-1::1778790384::0::1::::<><><>0<>0<><>::res://scripts/speed_zone.gd
+::res://scripts/::1778790384
+damage_item.gd::GDScript::7016386941994130467::1778790384::0::1::::<>Area2D<><>0<>0<><>::
+main.gd::GDScript::7902817042893487148::1778790384::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::7943649893189365557::1778790384::0::1::::<>RigidBody2D<><>0<>0<><>::
+score_item.gd::GDScript::7306435198385721372::1778790384::0::1::::<>Area2D<><>0<>0<><>::
+speed_zone.gd::GDScript::8160019980009830079::1778790384::0::1::::<>Area2D<><>0<>0<><>::
