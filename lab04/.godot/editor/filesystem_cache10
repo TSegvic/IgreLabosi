@@ -1,0 +1,17 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1778792971
+icon.svg::CompressedTexture2D::6391619713668414477::1778792169::1778792686::1::::<><><>0<>0<>3e92478abc430544dec9d002589716ec<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.txt::TextFile::-1::1778792169::0::1::::<><><>0<>0<><>::
+::res://scenes/::1778792169
+main.tscn::PackedScene::4729210499916038981::1778792169::0::1::::<><><>0<>0<><>::uid://b1c2d3e4f5g6h::::res://scenes/player.tscn
+player.tscn::PackedScene::4217105568134989597::1778792169::0::1::::<><><>0<>0<><>::res://scripts/player.gd<>res://scripts/camera_rig.gd<>res://scripts/humanoid_animator.gd
+::res://scripts/::1778792685
+camera_rig.gd::GDScript::2640620309241243970::1778792169::0::1::::<>Node3D<><>0<>0<><>::
+humanoid_animator.gd::GDScript::4999012565798686458::1778792169::0::1::::<>AnimationPlayer<><>0<>0<><>::
+player.gd::GDScript::3467288234681317181::1778792169::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://sounds/::1778793011
+attack.wav::AudioStreamWAV::5720275978794033053::1778793061::1778793073::1::::<><><>0<>0<>6dde9694c15e55bc4fcab8bfcd980243<>res://.godot/imported/attack.wav-f70f20667a2b255e2a05eb23aec1449c.sample::
+footstep.ogg::AudioStreamOggVorbis::9193773148053325539::1778792328::1778792972::1::::<><><>0<>0<>94e965f3f88b8c5da7c7b13ec4df4594<>res://.godot/imported/footstep.ogg-a55452a16de490c27fcdcaa4196245b6.oggvorbisstr::
+jump.wav::AudioStreamWAV::2573335452527579870::1778792517::1778792972::1::::<><><>0<>0<>663809f3a0773771dae23823e9158f37<>res://.godot/imported/jump.wav-63d72944e2f01652b323ac239fd6a06d.sample::
+land.wav::AudioStreamWAV::7317104067425038431::1778792620::1778792972::1::::<><><>0<>0<>fcd3fa2735ee69d92f2c0edd68535bc0<>res://.godot/imported/land.wav-91d840c3b0f3842b2a7928ef6c399ce0.sample::
+::res://vfx/::1778784508
